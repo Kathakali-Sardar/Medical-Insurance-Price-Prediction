@@ -28,6 +28,8 @@ PROJECT PROCESS:
 
 5.Model Fitting
 
+ -Important features for prediction are chosen.
+
  -Tested different models like linear regression,SVR,Random forest,XGBoost etc. and after comparing all models
 
   Random Forest was selected as the best performing model 
