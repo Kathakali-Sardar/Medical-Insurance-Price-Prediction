@@ -1,0 +1,34 @@
+PROJECT PROCESS:
+
+1.Loaded the dataset into a pandas DataFrame.
+
+2.Conducted initial exploration:
+
+ -Checked for null values.
+
+ -Examined data types and statistical summaries (df.info(), df.describe()).
+
+ -Visualized distributions and correlations using Histograms,Boxplots,Pairplots,Heatmaps
+
+3.Data Preprocessing:
+
+ -Handled missing values and duplicate values.
+
+ -Encoded categorical feature Region using One-Hot Encoding.
+ 
+ -Handled outlier values using median imputation.
+
+4.Model Selection with Random States
+
+ -Ran multiple experiments with different random_state values (40 to 50).
+
+ -Observed test accuracies to identify the most stable and highest-performing model.
+
+ -Random State 46 was chosen as it yielded the highest test accuracy (0.798 for Linear Regression).
+
+5.Model Fitting
+
+ -Tested different models like linear regression,SVR,Random forest,XGBoost etc. and after comparing all models
+
+  Random Forest was selected as the best performing model 
+
