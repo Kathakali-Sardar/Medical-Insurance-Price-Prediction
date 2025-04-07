@@ -1,0 +1,33 @@
+CONCLUSION:
+
+Insights from EDA-
+
+1.Smoking significantly increases insurance charges – smokers (blue points) have much higher costs than non-smokers, forming a separate cluster.The difference is huge, with smokers paying nearly 3x more than non-smokers.
+
+2.Age and charges show a positive correlation – older individuals tend to have higher insurance costs.
+
+3.BMI and charges have a weak positive relationship – higher BMI slightly increases insurance charges, especially for smokers.
+
+4.Number of children has little to no impact on charges – no clear trend is visible.
+
+5.Males have slightly higher average insurance charges than females.However, the difference is not very significant, meaning gender does not have a strong impact on charges.
+
+6.Southeast region has the highest average charges
+
+
+
+
+Model fitting-
+
+We tried four models: Linear Regression, SVR, Random Forest, and XGBoost and after comparing all models
+
+Random Forest was selected as the best performing model. 
+
+
+
+Random Forest:
+
+Train R² ≈ 0.97
+
+Test R² ≈ 0.86 → best test performance.
+
